@@ -24,6 +24,13 @@ body {
   margin: 0;
 }
 
+* {
+  outline: none;
+  border: none;
+  color: #303030;
+  text-decoration: none;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
@@ -174,7 +181,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -184,7 +192,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 

@@ -1,0 +1,67 @@
+:root {
+  font-size: 16px;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+
+  color: #303030;
+}
+body {
+  color: #303030;
+  font-family: "Quicksand", sans-serif;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+
+  margin-top: 2rem;
+}
+
+nav .logo {
+  max-width: 6rem;
+}
+
+.teams {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 5rem 0 3rem 0;
+}
+
+.team {
+  width: 80%;
+  margin: 2rem 0;
+  border-radius: 5px;
+  border: 2px solid #d4d4d4;
+  padding: 1rem;
+}
+
+h4 a {
+  color: #303030;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+  :root {
+    font-size: 16px;
+  }
+
+  .teams {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10rem 5rem 0 5rem;
+  }
+
+  .team {
+    width: fit-content;
+    padding: 1rem;
+    margin: 0 2rem;
+  }
+}
